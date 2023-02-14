@@ -5,6 +5,8 @@ GM SM2/3/4 library based on Golang
 
 [![Build Status](https://travis-ci.com/tjfoc/gmsm.svg?branch=master)](https://travis-ci.com/github/tjfoc/gmsm)
 
+## Attention
+ 我并不熟悉国密算法，这个fork该库的主要目的是因为我的代码使用了sm4的加解密算法，但是sm4算法的性能相比aes太低了，这里想做一些优化，但是因为tjfoc/gmsm好像并没有人维护了，所以我这里直接fork一份出来并做一些简单维护
 
 ## Feature
  gmsm包含以下主要功能
